@@ -80,9 +80,9 @@ public class GhprbPullRequest{
 		}
 
 		if(mergeable){
-			sb.append(" Merged build triggered.");
+			sb.append("Merged build triggered.");
 		}else{
-			sb.append(" Build triggered.");
+			sb.append("Build triggered.");
 		}
 
 		repo.startJob(id,head, mergeable);
